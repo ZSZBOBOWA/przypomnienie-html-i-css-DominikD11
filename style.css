@@ -11,18 +11,20 @@ header{
 nav{
     background-color: #802424;
     color: white;
-   width: 70%;
+   width: 30%;
    height: 450px;
    float: left;
-    text-align: center;
+    
+   
 }
 main{
     background-color: #1bb367;
     color: white;
-    width: 30%;
+    width: 70%;
     height: 450px;
     text-align: center;
     float: left;
+    
 }
 footer{
     background-color: #ff0202;
@@ -30,4 +32,27 @@ footer{
    height: 50px;
     text-align: center;
     clear: both;
+}
+.nav {
+    margin: 10px;
+}
+table{
+    border: 1px solid rgb(3, 3, 3);
+    background-color: #802424;
+    margin: 20px;
+    border-collapse: collapse;
+}
+th{
+    border: 2px solid rgb(0, 0, 0);
+    background: #962d2d;
+}
+tr {
+    border:1px solid rgb(0, 0, 0);
+}
+td{
+    border:1px solid rgb(0, 0, 0);
+}
+.main img {
+    width: 400px;
+    height: 240px;
 }
